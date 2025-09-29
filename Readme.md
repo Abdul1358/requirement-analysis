@@ -98,13 +98,37 @@ Simplifies complexity by breaking down the system into smaller, user-oriented ta
 Acts as documentation for understanding system scope and features.
 
 
+# Acceptance Criteria 
+Acceptance Criteria are the conditions that a feature must meet to be accepted by stakeholders. They act as a bridge between requirements and development, ensuring that everyone has the same understanding of what “done” means for a feature.
+
+# Why Acceptance Criteria Are Important
+
+Clarity & Alignment → Eliminates ambiguity by clearly defining the expected behavior of a feature.
+
+Guides Development → Provides developers with precise instructions on what needs to be implemented.
+
+Supports Testing → Acts as the foundation for test cases, ensuring features meet user expectations.
+
+Ensures Stakeholder Satisfaction → Confirms that the delivered feature matches business goals and user needs. 
 
 
+# Example of Acceptance Criteria for Checkout Feature
 
+Feature: Checkout in Booking Management System
 
+**Acceptance Criteria**:
 
+User must be logged in before accessing the checkout page.
 
+Checkout page should display selected property details (name, price, booking dates).
 
+User must be able to select a payment method (e.g., credit card, PayPal).
+
+Payment must be securely processed, and confirmation should be displayed within 5 seconds.
+
+A booking confirmation email must be sent to the user upon successful payment.
+
+If payment fails, an error message should be shown and the booking should not be confirmed.
 
 
 
